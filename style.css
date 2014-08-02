@@ -9,9 +9,10 @@ body
         padding: 0;*/
 
 
-background-image: url(Photos/DanDan.jpg); 
-/*background-repeat: no-repeat; 
+/*background-image: url(Photos/DanDan.jpg); 
+*//*background-repeat: no-repeat; 
 */
+background-color: #000;
 background-size: 1000px 1500px;
     }
 
@@ -64,4 +65,22 @@ nav a:hover {
 	background-position: 0 -83;
 }
 
+nav li 
 
+#wrapper {
+	width:945px;
+	/*height:1500;*/
+	background-image: url(Photos/DanDan.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 945 1500;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#mainContent {
+	width: 945px;
+	height: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+}
