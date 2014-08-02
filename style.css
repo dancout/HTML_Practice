@@ -1,0 +1,67 @@
+body
+    {
+        /*background:url(DanDan.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        margin: 0;
+        padding: 0;*/
+
+
+background-image: url(Photos/DanDan.jpg); 
+/*background-repeat: no-repeat; 
+*/
+background-size: 1000px 1500px;
+    }
+
+#top {
+
+	color: green;
+	font-size: 50;
+}
+
+#picture {
+	background-color: #ccc;
+}
+
+p#picture {
+	color: orange;
+}
+
+area.friendLink {
+	shape: rect;
+	alt: OOPS;
+	target:_blank;
+}
+area.friendLink:hover {
+	border-style: solid;
+	border-width: 7px;
+}
+
+area:hover {
+	outline: 3px solid black;
+}
+
+li {
+	list-style: none;
+	float: left;
+}
+
+nav a {
+	display: block;
+	width: 275px;
+	height:83px;
+	margin: 6px;
+	background-image: url(Photos/spriteImage1.jpg);
+	background-size: 275px;
+	font-size: 50;
+	text-decoration: none;
+	text-indent: 20px;
+}
+
+nav a:hover {
+	background-position: 0 -83;
+}
+
+
